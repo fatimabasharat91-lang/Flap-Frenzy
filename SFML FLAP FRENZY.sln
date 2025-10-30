@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SFML BIRD THE GAME", "SFML BIRD THE GAME\SFML BIRD THE GAME.vcxproj", "{5702CFB3-742B-44C1-8CF3-03C610A852B7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5702CFB3-742B-44C1-8CF3-03C610A852B7}.Debug|x64.ActiveCfg = Debug|x64
+		{5702CFB3-742B-44C1-8CF3-03C610A852B7}.Debug|x64.Build.0 = Debug|x64
+		{5702CFB3-742B-44C1-8CF3-03C610A852B7}.Debug|x86.ActiveCfg = Debug|Win32
+		{5702CFB3-742B-44C1-8CF3-03C610A852B7}.Debug|x86.Build.0 = Debug|Win32
+		{5702CFB3-742B-44C1-8CF3-03C610A852B7}.Release|x64.ActiveCfg = Release|x64
+		{5702CFB3-742B-44C1-8CF3-03C610A852B7}.Release|x64.Build.0 = Release|x64
+		{5702CFB3-742B-44C1-8CF3-03C610A852B7}.Release|x86.ActiveCfg = Release|Win32
+		{5702CFB3-742B-44C1-8CF3-03C610A852B7}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3C540653-98A1-4709-8167-25AB1D2A9FE7}
+	EndGlobalSection
+EndGlobal
