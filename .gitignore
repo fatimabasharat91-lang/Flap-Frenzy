@@ -1,0 +1,52 @@
+# Build results
+[Bb]in/
+[Oo]bj/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Bb]uild/
+[Ll]og/
+
+# Visual Studio files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build artifacts
+*.log
+*.tlog
+*.lastbuildstate
+
+# Compiled binaries
+*.exe
+*.dll
+*.pdb
+*.idb
+
+# SFML / project debug folders
+Debug/
+Release/
+
+# Cache and temporary files
+*.aps
+*.ncb
+*.opendb
+*.VC.db
+*.VC.VC.opendb
+
+# Backup and autosave
+*.bak
+*.tmp
+
+# IDE folders
+.vs/
+.idea/
+.ReSharper/
+
+# System files
+Thumbs.db
+Desktop.ini
+
+# Other
+*.cache
