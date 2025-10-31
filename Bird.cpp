@@ -50,6 +50,8 @@ namespace Sonar
 
 		}
 	}
+
+
 	void Bird::Update(float dt)
 	{
 		if (BIRD_STATE_FALLING == _birdState)
@@ -63,11 +65,6 @@ namespace Sonar
 			}
 
 			_birdSprite.setRotation(_rotation);
-
-		}
-		else if (BIRD_STATE_FLYING == _birdState)
-		{
-			_birdSprite.move(0, GRAVITY * dt);
 		}
 		else if (BIRD_STATE_FLYING == _birdState)
 		{
@@ -82,12 +79,17 @@ namespace Sonar
 
 			_birdSprite.setRotation(_rotation);
 		}
+
 		if (_movementClock.getElapsedTime().asSeconds() > FLYING_DURATION)
 		{
 			_movementClock.restart();
 			_birdState = BIRD_STATE_FALLING;
 		}
 	}
+
+
+
+
 	void Bird::Tap()
 	{
 		_movementClock.restart();
