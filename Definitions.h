@@ -6,7 +6,7 @@
 #define SPLASH_SCENE_BACKGROUND_FILEPATH "Resources/res/Splash Background.png"
 #define MAIN_MENU_BACKGROUND_FILEPATH "Resources/res/ownsky.png"
 #define GAME_BACKGROUND_FILEPATH "Resources/res/ownsky.png"
-#define GAME_OVER_BACKGROUND_FILEPATH "Resources/res/sky.png"
+#define GAME_OVER_BACKGROUND_FILEPATH "Resources/res/ownsky.png"
 
 #define GAME_TITLE_FILEPATH "Resources/res/Play-02.png"
 #define PLAY_BUTTON_FILEPATH "Resources/res/PlayButton.png"
@@ -24,6 +24,8 @@
 #define BIRD_FRAME_3_FILEPATH "Resources/res/bird-03.png"
 #define BIRD_FRAME_4_FILEPATH "Resources/res/bird-04.png"
 
+
+#define FLAPPY_FONT_FILEPATH "Resources/fonts/FlappyFont.ttf"
 
 #define PIPE_MOVEMENT_SPEED 200.0f
 #define PIPE_SPAWN_FREQUENCY 2.5f
